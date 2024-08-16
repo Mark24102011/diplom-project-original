@@ -1,0 +1,171 @@
+@import'/styles/reset.css';
+:root {
+    --font-family: "Inter", sans-serif;
+    --second-family: "Italiana", sans-serif;
+}
+
+body {
+    background: #202023;
+}
+
+.a {
+    font-weight: 200;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 30px;
+    transition: .5s;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    width: 68%;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.a:hover {
+    color: aqua;
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+    background: #414147;
+}
+
+.span {
+    font-weight: 400;
+    font-size: 48px;
+    color: #fff;
+    margin-top: 70px;
+    font-family: var(--second-family);
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.maps {
+    width: 40%;
+    height: 45vh;
+    margin-top: 13%;
+    margin-right: 300px;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+}
+
+.divv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hov {
+    margin-left: 2%;
+    margin-top: 12.3%;
+    margin-right: 5%;
+}
+
+.hovv {
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+    font-family: var(--font-family);
+}
+
+.p {
+    margin-top: 40px;
+    font-size: 24px;
+    color: #fff;
+    width: 210px;
+    font-family: var(--font-family);
+    font-weight: 200;
+}
+
+.when {
+    margin-top: 12.3%;
+    font-family: var(--font-family);
+}
+
+.pp {
+
+    margin-top: 40px;
+    font-weight: 200;
+    font-size: 24px;
+    color: #fff;
+    font-family: var(--font-family);
+
+}
+
+.clock {
+    text-align: center;
+    display: block;
+    font-family: var(--font-family);
+    font-weight: 200;
+}
+
+.footer {
+    width: 100%;
+    height: 30vh;
+}
+
+.footer-div {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vvv {
+    width: 40%;
+}
+
+.TRADITIONAL {
+    font-weight: 200;
+    font-size: 40px;
+    color: #fff;
+    word-spacing: 7px;
+    margin-top: 7%;
+}
+.we{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 20px;
+color: #fff;
+margin-left: 2%;
+margin-top: 4%;
+}
+.footer-manu{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.footer-manu2{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 24px;
+color: #fff;
+}
+.footer-about{
+    display: flex;
+    flex-direction: column;
+}
+.a-about{
+    margin-top: 40%;
+}
+.copirate{
+    text-align: center;
+    font-family: var(--font-family);
+font-weight: 100;
+font-size: 20px;
+color: #fff;
+margin-top: 4%;
+}
