@@ -1,8 +1,8 @@
 @import '/styles/reset.css';
-html{
-    scroll-behavior: smooth;
+:root {
+    --font-family: "Inter", sans-serif;
+    --second-family: "Italiana", sans-serif;
 }
-
 .header {
     background: url(/photo_2022-06-05_13-14-26\ 1.png) no-repeat center/cover;
     background-size: 2180px;
@@ -19,6 +19,7 @@ html{
 }
 
 .nav-ul {
+    font-family: var(--font-family);
     display: flex;
     justify-content: space-between;
     width: 700px;
@@ -28,12 +29,14 @@ html{
 }
 
 .h1 {
+    font-family: var(--font-family);
     color: #fff;
     font-weight: 200;
     font-size: 70px;
 }
 
 .p {
+    font-family: var(--font-family);    
     font-weight: 300;
     font-size: 21px;
     color: #fff;
@@ -51,6 +54,7 @@ html{
 }
 
 .header-button {
+    font-family: var(--font-family);
     margin-top: 150px;
     width: 170px;
     height: 50px;
@@ -114,6 +118,7 @@ html{
 }
 
 .span {
+    font-family: var(--font-family);
     font-weight: 200;
     font-size: 24px;
     color: #fff;
@@ -129,16 +134,19 @@ html{
 }
 
 .header-span {
+    font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
     color: #fff;
 }
 
 .button {
+    font-family: var(--font-family);
+    z-index: 2;
+    cursor: pointer;
     width: 79px;
     height: 34px;
     background: #c85312;
-
     font-weight: 900;
     font-size: 16px;
     color: #fff;
