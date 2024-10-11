@@ -83,29 +83,17 @@
     height: 250px;
     position: absolute;
 }
-
-.kartochka::after {
-    content: "";
-    width: 24px;
-    height: 23px;
-    position: absolute;
-    background-image: url(/Ellipse\ 2.png);
-    background-repeat: no-repeat;
-    top: 600px;
-    left: 120px;
+.ooo{
+    height: 25px;
+    width: 25px;
     color: #fff;
-}
-
-.kartochka::before {
-    content: "";
-    width: 10px;
-    height: 15px;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
     position: absolute;
-    background-image: url(/!.png);
-    background-repeat: no-repeat;
-    top: 605px;
-    left: 130px;
-    color: #fff;
+    top: 610px;
+    left: 100px;
 }
 
 .kartochka {
@@ -161,30 +149,6 @@
     transition: 2s;
 }
 
-.kartochkaa::after {
-    content: "";
-    width: 24px;
-    height: 23px;
-    position: absolute;
-    background-image: url(/Ellipse\ 2.png);
-    background-repeat: no-repeat;
-    top: 600px;
-    left: 620px;
-    color: #fff;
-}
-
-.kartochkaa::before {
-    content: "";
-    width: 10px;
-    height: 15px;
-    position: absolute;
-    background-image: url(/!.png);
-    background-repeat: no-repeat;
-    top: 605px;
-    left: 630px;
-    color: #fff;
-}
-
 .divvv {
     width: 1500px;
     display: flex;
@@ -203,30 +167,6 @@
     transition: 2s;
 }
 
-.kartochkaaa::after {
-    content: "";
-    width: 24px;
-    height: 23px;
-    position: absolute;
-    background-image: url(/Ellipse\ 2.png);
-    background-repeat: no-repeat;
-    top: 600px;
-    left: 1100px;
-    color: #fff;
-}
-
-.kartochkaaa::before {
-    content: "";
-    width: 10px;
-    height: 15px;
-    position: absolute;
-    background-image: url(/!.png);
-    background-repeat: no-repeat;
-    top: 605px;
-    left: 1110px;
-    color: #fff;
-}
-
 .kartochka:hover {
     background: #ebad51;
 }
@@ -236,4 +176,10 @@
 
 .kartochkaaa:hover {
     background: #ebad51;
+}
+.jhj{
+    left: 1100px;
+}
+.hjh{
+    left: 600px;
 }
